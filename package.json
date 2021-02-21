@@ -1,0 +1,35 @@
+{
+  "name": "@mbriggs/metadata",
+  "version": "0.3.2",
+  "description": "metadata toolkit",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "author": "Matt Briggs <matt@mattbriggs.net>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "env TS_NODE_TRANSPILE_ONLY=true mocha 'test/**/*.test.ts'"
+  },
+  "dependencies": {
+    "@mbriggs/inspect": "^0.1.1",
+    "@types/debug": "*",
+    "@types/lodash": "*",
+    "debug": "*",
+    "lodash": "*",
+    "reflect-metadata": "*"
+  },
+  "devDependencies": {
+    "@types/mocha": "*",
+    "@types/node": "*",
+    "@types/reflect-metadata": "*",
+    "dotenv": "*",
+    "mocha": "*",
+    "node-ts": "*",
+    "prettier": "*",
+    "ts-node": "*",
+    "tsconfig-paths": "*",
+    "tslib": "*",
+    "typescript": "*",
+    "why-is-node-running": "*"
+  }
+}
